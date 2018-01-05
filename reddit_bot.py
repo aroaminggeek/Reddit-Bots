@@ -6,7 +6,7 @@ import os
 
 def authenticate():
     print('Authenticating...')
-    reddit = praw.Reddit('ARGbot')
+    reddit = praw.Reddit('bot')
     print('Authenticated as {}'.format(reddit.user.me()))
 
     return reddit

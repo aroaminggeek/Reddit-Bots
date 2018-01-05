@@ -15,7 +15,7 @@ REPLY_MESSAGE = ('Here\'s your Chuck Norris joke:\n\n'
 
 def authenticate():
     print('Authenticating...')
-    reddit = praw.Reddit('ARGbot')
+    reddit = praw.Reddit('bot')
     print('Authenticated as {}'.format(reddit.user.me()))
 
     return reddit
